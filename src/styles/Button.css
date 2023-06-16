@@ -1,0 +1,16 @@
+.button {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 8px;
+  background: #6971b8;
+  border-radius: 8px;
+  flex-grow: 0;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}

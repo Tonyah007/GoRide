@@ -1,0 +1,106 @@
+.app {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 0px;
+  gap: 16px;
+}
+
+.hero h1 {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 89px;
+  text-align: center;
+  color: #000000;
+}
+
+.hero p {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  color: #000000;
+}
+
+.hero button {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.payment {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  border-width: 1px 0px;
+  border-style: solid;
+  border-color: rgba(30, 30, 30, 0.28);
+}
+
+.payment img {
+  max-width: 514px;
+  height: 626px;
+}
+
+.payment article {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+}
+
+.payment article h2 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 69px;
+  color: #000000;
+}
+
+.payment article p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.map {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 120px;
+  gap: 32px;
+}
+.map article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+}
+
+.map article h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #000000;
+}
+
+.map article p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+}
+
+.map img {
+  max-width: 1060px;
+  height: 692px;
+}
