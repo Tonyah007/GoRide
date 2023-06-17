@@ -3,6 +3,7 @@ import Button from "./components/Button";
 import Header from "./components/Header";
 import payment from "./images/payment.png";
 import map from "./images/map.png";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -38,6 +39,8 @@ function App() {
         </article>
         <img src={map} alt="map" />
       </section>
+
+      <Footer />
     </main>
   );
 }
